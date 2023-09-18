@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" , user-scalable="no">
+
+	<!--Icon-->
+	<link rel="icon" type="image/x-icon" href="./assets/imgs/favicon.svg">
+	<title>Pokédex</title>
+
+	<!--Varela Round Font-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap">
+
+	<!--Normalize CSS-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+		integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!--CSS-->
+	<link rel="stylesheet" href="./assets/css/global.css">
+	<link rel="stylesheet" href="./assets/css/detail.css">
+</head>
+
+<body>
+	<div id="background" class="crt"></div>
+	<header class="header">
+		<div class="myLogo-wrapper">
+			<img src="" alt="my logo" id="myLogo">
+		</div>
+		<img id="poke-logo" class="logo-up-down" src="./assets/imgs/pokeLogo.svg" alt="Pokédex Logo" title="Pokédex">
+		<div class="social-wrapper">
+			<a href="https://github.com/thiagoomiranda" class="social">
+				<img class="social-logo" alt="Github logo" title="Github link"
+					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+			</a>
+			<a href="https://www.linkedin.com/in/thiago-de-oliveira-miranda-5393181a7" class="social">
+				<img class="social-logo" alt="linkedIn logo" title="LinkedIn link"
+					src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />
+			</a>
+		</div>
+	</header>
+	<section class="detail-content">
+		<div id="alert-screen" class="hidden crt">
+			<span>Por favor rotacione</span>
+			<img src="./assets/imgs/rotatePhone.svg" alt="">
+			<span>o celular para a vertical</span>
+		</div>
+		<div class="content-wrapper">
+			<div class="button-wrapper">
+				<a href="index.html" id="return"><i class="fa-solid fa-reply"></i></a>
+				<a id="flip" class="hidden"><i class="fa-solid fa-rotate"></i></a>
+			</div>
+			<div class="card-detail card-detail-front">
+				<div id="card">
+					<div class="imgWrapper">
+						<div id="pkmImg"></div>
+					</div>
+					<div class="basic-info">
+						<span id="pkmName"></span>
+						<span id="pkmNumber"></span>
+					</div>
+				</div>
+				<div class="info">
+					<div class="general-info">
+						<span class="info-item infoTitle">Altura:</span>
+						<span class="info-item infoTitle">Tipo:</span>
+						<span class="info-item infoTitle">Peso:</span>
+						<span class="info-item" id="pkmHeight"></span>
+						<ol class="info-item pkmTypes types">
+						</ol>
+						<span class="info-item" id="pkmWeight"></span>
+					</div>
+					<div class="abilitiesWrapper">
+						<span>habilidades:</span>
+						<ol id="pkmAbilities">
+						</ol>
+					</div>
+					<ol class="stats-list" id="pkmStats">
+					</ol>
+				</div>
+			</div>
+			<div class="card-detail card-detail-back">
+			</div>
+		</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<span>Projeto educacional desenvolvido por: Thiago de Oliveira Miranda</span>
+		<span>©2023 Pokémon. ©1995 - 2023 Nintendo/Creatures Inc./GAME FREAK inc.</span>
+	</footer>
+
+	<script type="text/javascript " src="./assets/js/pokemonDetail-model.js"></script>
+	<script type="text/javascript " src="./assets/js/commons.js"></script>
+	<script type="text/javascript " src="./assets/js/service-api.js"></script>
+	<script type="text/javascript " src="./assets/js/detail.js"></script>
+	<script src="https://kit.fontawesome.com/13ca46f3a0.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
