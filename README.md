@@ -45,10 +45,6 @@ https://thiagoomiranda.github.io/js-developer-pokedex/
 
 <br>
 
----
-
-<br>
-
 ## **`Conceitos Explorados:`** <a name="conceitos"></a>
 
 **API:** _(Application Programming Interface)_ ou Interface de Programação de Aplicativos, é um conjunto de regras e protocolos que permite que diferentes softwares se comuniquem e interajam uns com os outros. Ela define as maneiras pelas quais os programas podem solicitar e compartilhar dados e funcionalidades específicas. Para este projeto foi utilizada a **pokeAPI**.
