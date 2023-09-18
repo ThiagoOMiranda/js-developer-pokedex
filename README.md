@@ -16,7 +16,7 @@
 
 <spam align="center">
 
-https://thiagoomiranda.github.io/pokedexJS/
+https://thiagoomiranda.github.io/js-developer-pokedex/
 
 </spam>
 
