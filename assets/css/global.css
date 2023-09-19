@@ -217,6 +217,7 @@ section.content {
   position: relative;
   width: 100vw;
   height: 100vh;
+  /* padding: 4.75rem 1.5rem 0 1.5rem; */
   padding: 4.75rem 1.5rem 0 1.5rem;
 }
 
@@ -450,7 +451,7 @@ footer.footer > span {
   section.content {
     max-width: 992px;
     margin: 0 auto;
-    padding: 5rem 1rem 0 1rem;
+    /* padding: 5rem 1.5rem 1.875rem 1.5rem; */
   }
 
   footer.footer {
