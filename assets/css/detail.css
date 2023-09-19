@@ -8,8 +8,9 @@ body {
 section.detail-content {
   width: 100vw;
   height: 100vh;
-  padding: 4.25rem 1.5rem;
+  padding: 0 1.5rem;
   margin-bottom: 2.813rem;
+  margin-top: 3.125rem;
 }
 
 #alert-screen {
@@ -592,7 +593,7 @@ section.detail-content {
 }
 
 .scroll {
-  overflow: scroll;
+  overflow: scroll !important;
   overflow-x: hidden;
 }
 
@@ -690,27 +691,26 @@ section.detail-content {
 
 @media screen and (min-width: 376px) {
   #card {
-    width: 100%;
-    height: 34vh;
+    height: 30vh;
     border-radius: 0 0 2rem 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
   }
 
   #pkmImg {
-    height: 12.5rem;
-    width: 12.5rem;
+    height: 9.5rem;
+    width: 9.5rem;
   }
 
   #card .basic-info {
-    padding: 0.5rem 0.75rem;
+    padding: 0 0.75rem 0.5rem 0.75rem;
   }
 
   #card .basic-info span {
-    font-size: x-large;
+    font-size: larger;
   }
 
   .info .general-info {
-    padding: 0.75rem 1.25rem 0.5rem 1.25rem;
+    padding: 0.625rem 1.25rem 0.5rem 1.25rem;
   }
 
   .info .general-info .infoTitle {
@@ -726,11 +726,11 @@ section.detail-content {
   .info .general-info .types .type {
     min-width: 90%;
     padding: 0.2rem 0.65rem;
-    font-size: 1.1rem;
+    font-size: 0.875rem;
   }
 
   .info .abilitiesWrapper {
-    margin: 1rem 1.25rem;
+    margin: 0.75rem 1.25rem;
   }
 
   .info .abilitiesWrapper li {
@@ -746,16 +746,16 @@ section.detail-content {
   }
 
   .info .stats-list {
-    margin: 0 1.25rem 1rem 1.25rem;
+    margin: 0 1.25rem 0.75rem 1.25rem;
     padding: 0.25rem 0.5rem;
   }
 
-  .info .stats-list .stats {
+  /* .info .stats-list .stats {
     padding: 3px;
-  }
+  } */
 
   .info .stats-list .stats span {
-    font-size: medium;
+    font-size: 0.875rem;
   }
 
   .card-detail-back > span {
@@ -774,7 +774,7 @@ section.detail-content {
   }
 
   .card-detail-back .base-wrapper .imgWrapper img {
-    height: 25%;
+    height: 23%;
   }
 
   .card-detail-back .base-wrapper > span {
@@ -782,11 +782,16 @@ section.detail-content {
   }
 
   .card-detail-back .base-wrapper .basic-info span {
-    font-size: x-large;
+    font-size: larger;
+  }
+
+  .card-detail-back .evol-list {
+    padding: 1rem 1.5rem;
+    overflow: hidden;
   }
 
   .card-detail-back .evol-list li.pokemon {
-    max-height: 13.394rem;
+    max-height: 11.35rem;
   }
 
   .card-detail-back .evol-list li.pokemon .basic-info span {
@@ -794,7 +799,7 @@ section.detail-content {
   }
 
   .card-detail-back .evol-list li.pokemon .detail img {
-    max-width: 55%;
+    max-width: 40%;
   }
 
   .card-detail-back .evol-list li.pokemon .detail .types {
@@ -802,14 +807,14 @@ section.detail-content {
   }
 
   .card-detail-back .evol-list li.pokemon .detail .types span {
-    font-size: large;
-    margin: 0.25rem 0;
+    font-size: medium;
+    /* margin: 0.25rem 0; */
   }
 
   .card-detail-back .evol-list li.pokemon .detail .types .type {
     width: 6.25rem;
     margin: 0.25rem;
-    font-size: larger;
+    font-size: medium;
     padding: 0.35rem 1rem;
     text-align: center;
   }
