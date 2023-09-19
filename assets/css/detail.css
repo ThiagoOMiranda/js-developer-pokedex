@@ -10,7 +10,7 @@ section.detail-content {
   height: 100vh;
   padding: 0 1.5rem;
   margin-bottom: 2.813rem;
-  margin-top: 3.125rem;
+  /* margin-top: 3.125rem; */
 }
 
 #alert-screen {
