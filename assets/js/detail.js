@@ -251,7 +251,7 @@ const injectPokemonEvol = (pokemon) => {
 
       const flipBtn = document.getElementById("flip");
       if (flipBtn.classList.contains("hidden"))
-        flipBtn.classList.remove("hidden");
+        setTimeout(() => flipBtn.classList.remove("hidden"), 1000);
 
       if (pokemon.length > 2) {
         const elementEvolList = document.getElementsByClassName("evol-list")[0];

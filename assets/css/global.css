@@ -32,6 +32,7 @@ body {
   height: 100vh;
   background-color: rgb(81, 153, 211);
   overflow-y: scroll;
+  /* overflow: hidden; */
 }
 
 #background {
@@ -219,6 +220,7 @@ section.content {
   height: 100vh;
   /* padding: 4.75rem 1.5rem 0 1.5rem; */
   padding: 4.75rem 1.5rem 0 1.5rem;
+  /* overflow-y: scroll; */
 }
 
 /* FOOTER */
